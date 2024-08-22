@@ -1,6 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/user-attachments/assets/c1500bb1-3680-4c5f-81b1-21c334b532b4)
+
+![image](https://github.com/user-attachments/assets/76767984-480f-4db1-8946-a4245ed3be9f)
+
+![image](https://github.com/user-attachments/assets/58bb80f9-7e50-49c3-b3d0-76ec24dd69f4)
+
+
 
 ## Getting Started
+
+First, install the node module
+
+```bash
+npm install
+
+```
 
 First, run the development server:
 
