@@ -83,15 +83,15 @@ const LoginPage: React.FC = () => {
         <div className="mt-6 text-center">
           <p className="text-gray-500">Log in with your SNS account</p>
           <div className="flex justify-between items-center space-x-4 mt-4">
-            <Image src="/images/naver-icon.png" alt="Google Logo" width={50} height={50} />
-            <Image src="/images/kakao-icon.png" alt="Google Logo" width={50} height={50} />
-            <Image src="/images/facebook-icon.png" alt="Google Logo" width={50} height={50} />
-            <Image src="/images/google-icon.png" alt="Google Logo" width={50} height={50} />
+            <Image src="/images/naver-icon.png" alt="Google Logo" width={50} height={50} className="w-auto h-auto" />
+            <Image src="/images/kakao-icon.png" alt="Google Logo" width={50} height={50} className="w-auto h-auto"  />
+            <Image src="/images/facebook-icon.png" alt="Google Logo" width={50} height={50} className="w-auto h-auto" />
+            <Image src="/images/google-icon.png" alt="Google Logo" width={50} height={50} className="w-auto h-auto" />
           </div>
         </div>
 
         <div className="mt-8 text-center">
-          <p className="text-gray-700 border border-black p-4 rounded">Don't have an account? <a href="#" className="text-blue-600 font-bold">Sign Up</a></p>
+          <p className="text-gray-700 border border-black p-4 rounded">Don't have an account? <a href="/pages/register" className="text-blue-600 font-bold">Sign Up</a></p>
           <div className="mt-4 flex justify-center space-x-8 text-blue-600 text-sm">
             <a href="#">Find Email(ID)</a>
             <a href="#">Find Password</a>
