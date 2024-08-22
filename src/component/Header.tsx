@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <a href="#" className="hover:text-gray-400">SOLUTION</a>
         <a href="#" className="hover:text-gray-400">RATE PLAN</a>
         <span className="mx-4 border-r border-gray-600"></span>
-        <a href="#" className="hover:text-gray-400">LOGIN</a>
+        <a href="/pages/login" className="hover:text-gray-400">LOGIN</a>
         <a href="#" className="hover:text-gray-400">APPLY FOR FREE USE</a>
       </nav>
     </header>
